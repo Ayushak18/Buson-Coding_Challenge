@@ -47,3 +47,85 @@ table {
 
 
 /* Custom Styles */
+
+
+/* General Styles */
+
+*{
+	box-sizing: border-box;
+}
+
+.body{
+	font-family: 'Poppins', sans-serif;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 100px;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+.btn{
+	padding: 15px 30px;
+	border-radius: 4px;
+	text-transform: uppercase;
+}
+
+.btn-fill{
+    border: none;
+    background: rgb(255, 107, 107);
+    color: white;
+	font-weight: 600;
+}
+
+.btn-hollow{
+
+}
+
+/* Specific Styles */
+
+.upper-header{
+	color: white;
+	padding: 20px 0;
+	background: darkblue;
+
+}
+
+.upper-header a{
+	color: white;
+}
+
+.upper-header span{
+	font-weight: 600;
+}
+
+.left-nav div{
+	margin-right:50px;
+}
+
+.left-nav i{
+	margin-right: 5px;
+}
+
+.right-nav a{
+	margin-left: 12px;
+}
+
+.lower-header{
+	padding:30px 0;
+}
+
+.right-links a {
+	margin-left:10px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
