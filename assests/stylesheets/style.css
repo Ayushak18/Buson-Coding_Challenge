@@ -64,6 +64,10 @@ table {
 	margin: 0 100px;
 }
 
+.container{
+	margin: 0 165px;
+}
+
 .flex{
 	display: flex;
 	justify-content: space-between;
@@ -78,6 +82,7 @@ a{
 	padding: 15px 30px;
 	border-radius: 4px;
 	text-transform: uppercase;
+	display: inline-block;
 }
 
 .btn-fill{
@@ -89,7 +94,10 @@ a{
 }
 
 .btn-hollow{
-
+    border:solid 2px rgb(255, 107, 107);
+    color: rgb(255, 107, 107);
+	font-weight: 600;
+	margin-left: 50px;
 }
 
 /* Specific Styles */
@@ -130,4 +138,33 @@ a{
 	font-weight: 700;
 	text-transform: uppercase;
 	color: darkblue;
+}
+
+.hero-section{
+	/* background: rgb(255, 202, 202); */
+	background: url("../media/hero/h1_hero.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hero-text {
+	width: 35%;
+	text-transform: uppercase;
+	padding: 120px 0;
+}
+
+.hero-text p{
+	color: rgb(255, 107, 107);
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.hero-text h1 {
+	color: darkblue;
+	font-size: 55px;
+	font-weight: 900;
+}
+
+.hero-text a{
+	margin: 40px 0;
 }
