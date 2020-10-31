@@ -357,3 +357,35 @@ a{
 	width: 50%;
 	margin: 0 10px;
 }
+
+/* Testimonial Section */
+
+.testimonial-text{
+	text-align: center;
+}
+
+.testimonial-icon-para, .testimonial-star-icons{
+	margin: 30px 0;
+}
+
+.testimonial-icon-para i{
+	color: rgb(124, 124, 124);
+}
+
+.testimonial-star-icons{
+	color: gold;
+}
+
+blockquote{
+	padding: 0 100px;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 600;
+	color: rgb(0, 0, 68);
+}
+
+.bold-span{
+	font-weight: 600;
+	color: rgb(0, 0, 68);
+	font-size: 20px;
+}
