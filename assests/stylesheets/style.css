@@ -94,6 +94,7 @@ a{
 	border-radius: 4px;
 	text-transform: uppercase;
 	display: inline-block;
+	font-weight: 600;
 }
 
 
@@ -102,8 +103,6 @@ a{
     border: none;
     background: rgb(255, 107, 107);
     color: white;
-	font-weight: 600;
-	margin-left: 50px;
 }
 
 
@@ -111,8 +110,6 @@ a{
 .btn-hollow{
     border:solid 2px rgb(255, 107, 107);
     color: rgb(255, 107, 107);
-	font-weight: 600;
-	margin-left: 50px;
 }
 
 /* Padding Class */
@@ -125,6 +122,17 @@ a{
 	margin: 0 20px;
 }
 
+.article-heading{
+	font-size:24px;
+	font-weight: 700;
+	color: rgb(0, 0, 88);
+	padding: 20px 0;
+}
+
+.article-para{
+	line-height: 25px;
+	color: rgb(124, 124, 124);
+}
 
 /*---------------------- Specific Styles ----------------------*/
 
@@ -165,6 +173,11 @@ a{
 /* Lowe header padding */
 .lower-header{
 	padding:30px 0;
+}
+
+/* Lower-header-button */
+.lower-header-btn{
+	margin-left: 50px;
 }
 
 /* Lower nav right links */
@@ -208,8 +221,14 @@ a{
 	margin: 40px 0;
 }
 
-/* Team Articles */
+/* -------Team Section------- */
 
+/* Team */
+.team{
+	background: rgb(239, 249, 255);
+}
+
+/* Team Columns */
 .team-col{
 	flex: 0 1 30%;
 }
@@ -217,4 +236,31 @@ a{
 /* Team Article img */
 .team-article-img{
 	width: 100%;
+}
+
+/* Team article special column */
+.team-col-active{
+	border: 3px solid rgb(255, 107, 107);
+	padding: 20px;
+	background: rgb(255, 253, 244);
+}
+
+.team-article-border{
+	border-top: red solid 4px;
+	width: 30%;
+	height: 1%;
+	padding: 10px 0;
+}
+
+.team-col-active h3{
+	font-size: 43px;
+	font-weight: 900;
+}
+
+.team-col-active p {
+	padding-bottom: 15px;
+}
+
+.team-article-anchor{
+	color: rgb(0, 0, 88);
 }
