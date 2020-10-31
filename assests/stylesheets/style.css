@@ -320,3 +320,40 @@ a{
 	margin: 100px auto;
 	text-align: center;
 }
+
+/* Cases */
+.cases {
+	background: rgb(239, 249, 255);
+}
+
+.cases .no-margin-right{
+	margin-right: 0;
+}
+
+.cases-text{
+	width: 60%;
+}
+
+.cases-text h3{
+	font-size: 38px;
+	font-weight: 900;
+}
+
+.cases-text a{
+	margin: 50px 0;
+}
+
+.cases-img {
+	width: 60%;
+	overflow: scroll;
+}
+
+.cases-img::-webkit-scrollbar{
+	width: 0px;
+    background: transparent;
+}
+
+.cases-img img {
+	width: 50%;
+	margin: 0 10px;
+}
