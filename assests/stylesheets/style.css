@@ -264,3 +264,36 @@ a{
 .team-article-anchor{
 	color: rgb(0, 0, 88);
 }
+
+/* Well Trusted section */
+
+.well-trusted{
+	position: relative;
+}
+
+.well-trusted-img img{
+	width: 80%;
+}
+
+.well-trusted-text{
+	position: absolute;
+	width: 45%;
+	left: 600px;
+	top: 150px;
+	background-color:rgba(255, 255, 255, 0.7);
+	padding: 50px;
+}
+
+.well-trusted-text h3{
+	font-size: 48px;
+	font-weight: 900;
+	/* margin-bottom: 50px; */
+}
+
+.well-trusted-text p{
+	/* margin: 50px 0; */
+}
+
+.well-trusted-text a {
+	margin-top: 50px;
+}
