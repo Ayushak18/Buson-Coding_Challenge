@@ -287,13 +287,36 @@ a{
 .well-trusted-text h3{
 	font-size: 48px;
 	font-weight: 900;
-	/* margin-bottom: 50px; */
-}
-
-.well-trusted-text p{
-	/* margin: 50px 0; */
 }
 
 .well-trusted-text a {
 	margin-top: 50px;
+}
+
+/* -------Services Section ------- */
+
+/* Service section heading */
+
+.service-top-heading{
+	font-size: 38px;
+	font-weight: 900;
+	text-align: center;
+}
+
+/* Service Column container */
+
+.service-icon-column{
+	margin-top: 100px ;
+}
+
+.service-col{
+	flex: 0 1 30%;
+	text-align: center;
+	background: rgb(239, 249, 255);
+	padding: 80px 20px;
+}
+
+.services-btn{
+	margin: 100px auto;
+	text-align: center;
 }
