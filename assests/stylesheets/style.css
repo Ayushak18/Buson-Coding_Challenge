@@ -405,3 +405,57 @@ blockquote{
 .article-col{
 	padding: 20px;
 }
+
+/* Call Back Section */
+
+.call-back-section{
+	background-color: rgb(0, 0, 90);
+}
+
+.call-back{
+	color: white;
+}
+
+.call-back-text{
+	flex: 0 1 40%;
+}
+
+.call-back-heading{
+	font-size: 36px;
+	font-weight: 900;
+	padding-bottom: 20px;
+	line-height: 45px;
+}
+
+.call-back-para{
+	line-height: 30px;
+}
+
+.call-back-form{
+	vertical-align: top;
+}
+
+.call-back-form-input input{
+	background:transparent;
+	border: 2px solid rgb(131, 131, 131);
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: white;
+}
+
+.input-margin{
+	margin-right: 10px;
+}
+
+.call-back-drop-btn{
+	margin: 30px 0;
+}
+
+.drop-down{
+	border-radius: 5px;
+	border: 2px solid rgb(131, 131, 131);
+	padding: 10px 20px;
+	width: 100%;
+	margin-right: 20px;
+}
+
