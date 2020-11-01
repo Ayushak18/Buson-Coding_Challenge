@@ -389,3 +389,19 @@ blockquote{
 	color: rgb(0, 0, 68);
 	font-size: 20px;
 }
+
+/* News */
+
+.news-heading{
+	text-align: center;
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.red-span{
+	color: rgb(255, 107, 107);
+}
+
+.article-col{
+	padding: 20px;
+}
