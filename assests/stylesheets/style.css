@@ -134,6 +134,11 @@ a{
 	color: rgb(124, 124, 124);
 }
 
+
+.aling-items-top{
+	align-items: flex-start;
+}
+
 /*---------------------- Specific Styles ----------------------*/
 
 
@@ -459,3 +464,47 @@ blockquote{
 	margin-right: 20px;
 }
 
+/* Footer */
+footer{
+	background: rgb(239, 249, 255);
+}
+
+.footer-brand{
+	flex: 0 1 20%;
+	margin-right: 80px;
+}
+
+.footer-brand p{
+	padding: 30px 0;
+}
+
+.footer-icons i{
+	margin: 0 5px;
+}
+
+.footer-icons i:hover,.footer-col a:hover{
+	color: darkblue;
+}
+
+.footer-col{
+	flex: 0 1 20%;
+}
+
+.footer-col h4{
+	padding-top: 0;
+}
+
+.footer-col a{
+	color: darkgrey;
+	line-height: 35px;
+	font-weight: 700;
+}
+
+.lower-footer-para{
+	text-align: center;
+	padding: 20px 0;
+}
+
+.lower-footer-para span{
+	color: red;
+}
