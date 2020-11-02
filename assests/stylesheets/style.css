@@ -134,6 +134,16 @@ a{
 	align-items: flex-start;
 }
 
+/* Columns */
+.col{
+	flex: 0 1 30%;
+}
+
+/* Img-Width */
+.article-img{
+	width: 100%;
+}
+
 /*---------------------- Specific Styles ----------------------*/
 
 
@@ -226,16 +236,6 @@ a{
 /* Team */
 .team{
 	background: rgb(239, 249, 255);
-}
-
-/* Team Columns */
-.team-col{
-	flex: 0 1 30%;
-}
-
-/* Team Article img */
-.team-article-img{
-	width: 100%;
 }
 
 /* Team article special column */
