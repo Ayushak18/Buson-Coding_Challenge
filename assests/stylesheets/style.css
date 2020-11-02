@@ -376,7 +376,7 @@ a{
 	color: gold;
 }
 
-blockquote{
+.testimonial-icon-para blockquote{
 	padding: 0 100px;
 	line-height: 30px;
 	font-size: 20px;
