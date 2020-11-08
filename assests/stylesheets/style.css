@@ -58,21 +58,21 @@ table {
 }
 
 /* Font  */
-.body{
+body{
 	font-family: 'Poppins', sans-serif;
 }
 
 
 /* Container for header */
 .header-container{
-	max-width: 1200px;
-	margin: 0 100px;
+	max-width: 1150px;
+	margin: 0 auto;
 }
 
 /* Container for major main sections */
 .container{
-	margin: 0 165px;
-	max-width: 1200px;
+	margin: 0 auto;
+	max-width: 1000px;
 	padding: 80px 0;
 }
 
@@ -167,7 +167,7 @@ a{
 }
 
 /* Adding space between upper nav text */
-.left-nav ul{
+.left-nav li{
 	margin-right:50px;
 }
 
@@ -187,12 +187,13 @@ a{
 }
 
 /* Lower-header-button */
-.lower-header-btn{
-	margin-left: 50px;
+#lower-header-btn{
+	margin-left: 50px ;
+	color: white;
 }
 
 /* Lower nav right links */
-.right-links-pure-li a{
+.lower-header-right-links a{
 	margin-left:15px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -208,7 +209,6 @@ a{
 
 /* Text in hero section */
 .hero-text {
-	width: 35%;
 	text-transform: uppercase;
 	padding: 120px 0;
 }
@@ -225,6 +225,7 @@ a{
 	color: darkblue;
 	font-size: 55px;
 	font-weight: 900;
+	line-height: 60px;
 }
 
 /* Button / anchor of hero section */
@@ -237,6 +238,10 @@ a{
 /* Team */
 .team{
 	background: rgb(239, 249, 255);
+}
+
+.team-articles{
+	align-items: stretch;
 }
 
 /* Team article special column */
@@ -273,7 +278,7 @@ a{
 }
 
 .well-trusted-img img{
-	width: 80%;
+	width: 100%;
 }
 
 .well-trusted-text{
@@ -325,10 +330,6 @@ a{
 /* Cases */
 .cases {
 	background: rgb(239, 249, 255);
-}
-
-.cases .no-margin-right{
-	margin-right: 0;
 }
 
 .cases-text{
@@ -482,6 +483,10 @@ footer{
 	color: darkgrey;
 	line-height: 35px;
 	font-weight: 700;
+}
+
+.lower-footer{
+	padding-top: 0;
 }
 
 .lower-footer-para{
